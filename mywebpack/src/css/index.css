@@ -1,0 +1,203 @@
+#app {
+  font-family: 'iconfont'; }
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #62bf82;
+  width: 100%;
+  height: 80px;
+  padding-top: 21px; }
+  .header .nav {
+    width: auto;
+    margin: 0 10px; }
+  .header .music, .header .mine, .header .find, .header .menu, .header .add {
+    width: 20%;
+    color: #edf8f1;
+    font-size: 20px;
+    text-align: center; }
+  .header .menu {
+    text-align: left; }
+  .header .add {
+    text-align: right; }
+  .header .music.h, .header .mine.h, .header .find.h {
+    color: #fff; }
+  .header .search {
+    width: auto;
+    height: 32px;
+    margin: 0px 10px;
+    margin-top: 15px;
+    border-radius: 4px;
+    line-height: 32px;
+    background: #55a872;
+    color: #fff; }
+    .header .search .content {
+      width: 120px;
+      margin: 0 auto;
+      text-align: center; }
+
+.user {
+  width: 100%;
+  margin-top: 117px; }
+  .user .online, .user .vip {
+    height: 25px;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 25px;
+    border: 1px solid #aaa;
+    font-size: 14px; }
+  .user .online {
+    width: 75px;
+    color: #55a872;
+    margin-left: 70px; }
+  .user .via {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid #aaa;
+    margin: 0 auto;
+    overflow: hidden; }
+    .user .via img {
+      width: 100%; }
+  .user .vip {
+    width: 55px;
+    margin-right: 70px; }
+  .user .userName {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5px; }
+
+.main {
+  height: 230px;
+  border-bottom: 5px solid #e4e4e4; }
+  .main .all, .main .download, .main .recent, .main .like, .main .mv, .main .buy {
+    width: 33.333%;
+    float: left;
+    height: 110px;
+    text-align: center;
+    cursor: pointer; }
+    .main .all .logo, .main .download .logo, .main .recent .logo, .main .like .logo, .main .mv .logo, .main .buy .logo {
+      font-size: 40px;
+      color: #62bf82;
+      margin-top: 20px; }
+    .main .all p, .main .download p, .main .recent p, .main .like p, .main .mv p, .main .buy p {
+      color: #000;
+      font-size: 15px; }
+
+.radio .character {
+  border-bottom: 1px solid #e4e4e4; }
+.radio .running {
+  border-bottom: 5px solid #e4e4e4; }
+.radio .character, .radio .running {
+  height: 62px; }
+  .radio .character .logo, .radio .running .logo {
+    margin-right: 15px; }
+  .radio .character p, .radio .running p {
+    padding-top: 10px; }
+
+.list {
+  margin-bottom: 60px; }
+  .list .create {
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 50px; }
+  .list .add, .list .menu {
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: 15px; }
+
+.player {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 55px;
+  background: #fff;
+  padding-top: 5px;
+  border-top: 1px solid #e4e4e4; }
+  .player .logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 15px;
+    margin-left: 10px; }
+    .player .logo img {
+      width: 100%; }
+  .player p {
+    padding-top: 5px; }
+  .player .menu, .player .go {
+    font-size: 30px;
+    color: #62bf82;
+    margin-right: 15px;
+    margin-top: 10px; }
+
+#music, #find {
+  margin-top: 130px; }
+
+.all .header, .like .header, .download .header {
+  height: 40px; }
+  .all .header .title, .like .header .title, .download .header .title {
+    background: #f1ff;
+    text-align: center; }
+  .all .header .back, .like .header .back, .download .header .back {
+    margin-left: 15px; }
+  .all .header .back, .all .header .title, .like .header .back, .like .header .title, .download .header .back, .download .header .title {
+    font-size: 20px;
+    color: #fff; }
+  .all .header .menu, .like .header .menu, .download .header .menu {
+    width: 30px;
+    text-align: right;
+    margin-right: 15px; }
+.all .nav, .like .nav, .download .nav {
+  height: 40px;
+  background: #fff;
+  width: auto;
+  margin: 0 15px;
+  margin-top: 60px;
+  padding-bottom: 5px; }
+  .all .nav .song, .all .nav .article, .all .nav .special, .like .nav .song, .like .nav .article, .like .nav .special, .download .nav .song, .download .nav .article, .download .nav .special {
+    float: left;
+    width: 33%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    color: #756464; }
+  .all .nav .song.h, .all .nav .article.h, .all .nav .special.h, .like .nav .song.h, .like .nav .article.h, .like .nav .special.h, .download .nav .song.h, .download .nav .article.h, .download .nav .special.h {
+    border-bottom: 5px solid #78E29C; }
+.all .single-music .demo, .like .single-music .demo, .download .single-music .demo {
+  width: auto;
+  height: 50px;
+  padding: 0 20px;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa; }
+  .all .single-music .demo .message, .all .single-music .demo .menu, .like .single-music .demo .message, .like .single-music .demo .menu, .download .single-music .demo .message, .download .single-music .demo .menu {
+    color: #aaa; }
+  .all .single-music .demo .name, .like .single-music .demo .name, .download .single-music .demo .name {
+    margin-top: 5px; }
+  .all .single-music .demo .message, .like .single-music .demo .message, .download .single-music .demo .message {
+    font-size: 12px; }
+  .all .single-music .demo .menu, .like .single-music .demo .menu, .download .single-music .demo .menu {
+    line-height: 50px; }
+.all .single-music .single, .like .single-music .single, .download .single-music .single {
+  width: auto;
+  margin: 0 15px;
+  height: 50px;
+  padding: 0 5px;
+  border-bottom: 1px solid #aaa; }
+  .all .single-music .single .message, .all .single-music .single .menu, .like .single-music .single .message, .like .single-music .single .menu, .download .single-music .single .message, .download .single-music .single .menu {
+    color: #aaa; }
+  .all .single-music .single .name, .like .single-music .single .name, .download .single-music .single .name {
+    padding-top: 5px;
+    font-size: 16px;
+    color: #000; }
+  .all .single-music .single .message, .like .single-music .single .message, .download .single-music .single .message {
+    font-size: 12px; }
+  .all .single-music .single .menu, .like .single-music .single .menu, .download .single-music .single .menu {
+    line-height: 50px; }
+
+/*# sourceMappingURL=index.css.map */

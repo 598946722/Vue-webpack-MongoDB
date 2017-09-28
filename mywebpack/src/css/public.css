@@ -1,0 +1,74 @@
+.w980 {
+    width: 980px;
+    margin: 0px auto;
+}
+
+.f-l {
+    float: left;
+}
+
+.f-r {
+    float: right;
+}
+
+a {
+    color: #898989;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+    list-style: none;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: 'iconfont', '微软雅黑';
+}
+
+/* @media screen and (min-width:768px) {
+    #app{
+        width: 768px;
+        margin: 0px auto;
+    }
+}
+
+@media screen and (max-width:320px) {
+    #app{
+        width: 320px;
+        margin: 0px auto;
+    }
+} */
+
+.outer :after {
+    clear: both;
+    content: '.';
+    display: block;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.outer {
+    zoom: 1;
+}
+
+.clear {
+    clear: both;
+    height: 0;
+    line-height: 0;
+    font-size: 0
+}
+#app{
+    font-family: 'iconfont'
+}
